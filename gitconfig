@@ -1,0 +1,40 @@
+[user]
+	name = Maxime Margerin
+	email = maxime.margerin@gmail.com
+[alias]
+	ad = add
+	ada = add --all .
+	bl = blame
+	br = branch
+	bra = branch --all
+	brd = branch --delete
+	ch = checkout
+	cl = clone
+	cm = commit
+	cma = commit --amend
+	cmm = commit -m
+	cmam = commit --all -m
+	co = config
+	di = diff
+	fe = fetch
+	he = help
+	lo = log
+	loo = log --oneline
+	me = merge
+	pl = pull
+	ps = push
+	psf = push --force
+	psu = push --set-upstream
+	rb = rebase
+	rf = reflog
+	rs = reset
+	rv = revert
+	ss = stash
+	ssc = stash clear
+	ssl = stash list
+	ssp = stash pop
+	st = status
+[push]
+	default = matching
+[core]
+	editor=vim
