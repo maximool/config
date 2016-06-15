@@ -1,5 +1,6 @@
 [user]
 	name = Maxime Margerin
+	email = maxime.margerin@gmail.com
 [alias]
 	ad = add
 	ada = add --all .
@@ -10,9 +11,8 @@
 	ch = checkout
 	cl = clone
 	cm = commit
-	cma = commit --amend
-	cmm = commit -m
-	cmam = commit --all -m
+	cmal = commit --all
+	cmam = commit --amend
 	co = config
 	di = diff
 	fe = fetch
