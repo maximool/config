@@ -1,8 +1,8 @@
 " http://vim.wikia.com/wiki/Example_vimrc
 " interprète les fichiers .md comme du Markdown
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-" thème transparent, default fait plus flashy mais il est
-" installé par défaut
+" thème transparent, default fait plus flashy mais il est installé par
+" défaut
 colorscheme jellybeans
 " active tous les plugins compris dans le package, notamment netrw (avec
 " la commande `:E`)
