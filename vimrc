@@ -1,9 +1,9 @@
 " http://vim.wikia.com/wiki/Example_vimrc
 " interprète les fichiers .md comme du Markdown
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-" thème transparent, default et elflord font plus flashy mais il sont
-" installés par défaut
-colorscheme twilight256
+" thème transparent, default fait plus flashy mais il est
+" installé par défaut
+colorscheme jellybeans
 " active tous les plugins compris dans le package, notamment netrw (avec
 " la commande `:E`)
 filetype plugin on
@@ -28,7 +28,7 @@ set cursorline
 " l'encodage, indispensable
 set encoding=UTF-8
 set fileencoding=UTF-8
-" met en surbrillance les résutlats des recherches
+" met en surbrillance les résultats des recherches
 set hlsearch
 " commence la recherche avant validation par l'utilisateur
 set incsearch

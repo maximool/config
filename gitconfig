@@ -16,6 +16,7 @@
 	co = config
 	di = diff
 	fe = fetch
+	fea = fetch --all
 	he = help
 	lo = log
 	loo = log --oneline
