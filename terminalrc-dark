@@ -1,5 +1,5 @@
 [Configuration]
-DropdownOpacity=90
+DropdownOpacity=100
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
