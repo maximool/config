@@ -9,17 +9,17 @@ alias ping='ping -c 4'
 alias up='uptime'
 alias vi='vim'
 
-if [ ! -z "$HOME/bin" ]
+if [ -d "$HOME/bin" ]
 then
 	PATH="$HOME/bin:$PATH"
 	export PATH
 fi
 
-if [ ! -z "$HOME/softwares" ]
+if [ -d "$HOME/softwares" ]
 then
 	for software in $(ls $HOME/softwares)
 	do
-		if [ ! -z "$HOME/softwares/$software/bin" ]
+		if [ -d "$HOME/softwares/$software/bin" ]
 		then
 			PATH="$HOME/softwares/$software/bin:$PATH"
 		fi
