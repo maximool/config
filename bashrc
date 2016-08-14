@@ -13,3 +13,15 @@ then
 	PATH="$HOME/bin:$PATH"
 	export PATH
 fi
+
+if [ ! -z "$HOME/softwares" ]
+then
+	for software in $(ls $HOME/softwares)
+	do
+		if [ ! -z "$HOME/softwares/$software/bin" ]
+		then
+			PATH="$HOME/softwares/$software/bin:$PATH"
+		fi
+	done
+	export PATH
+fi
