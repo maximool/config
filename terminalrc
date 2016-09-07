@@ -1,5 +1,5 @@
 [Configuration]
-DropdownOpacity=100
+DropdownOpacity=90
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
@@ -19,14 +19,12 @@ MiscHighlightUrls=TRUE
 FontName=Monospace 10
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 BackgroundDarkness=0,900000
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 DropdownAlwaysShowTabs=FALSE
-ColorForeground=#b7b7b7
-ColorBackground=#000000
-ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#ffffff
+ColorBackground=#111622
+ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#b7b7b7
 ColorSelection=#163b59
 ColorSelectionUseDefault=FALSE
 ColorCursor=
-ColorBold=#ffffff
 ColorBoldUseDefault=FALSE
 TabActivityColor=#0f4999
+
