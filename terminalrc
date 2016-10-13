@@ -20,11 +20,14 @@ FontName=Monospace 10
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 BackgroundDarkness=0,900000
 DropdownAlwaysShowTabs=FALSE
-ColorBackground=#111622
+ColorBackground=#090b11
 ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#b7b7b7
 ColorSelection=#163b59
 ColorSelectionUseDefault=FALSE
 ColorCursor=
 ColorBoldUseDefault=FALSE
 TabActivityColor=#0f4999
+DropdownWidth=90
+TitleMode=TERMINAL_TITLE_REPLACE
+ScrollingLines=5000
 
