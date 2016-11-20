@@ -16,8 +16,8 @@
     scroll_on_output = False
     show_titlebar = False
     color_scheme = custom
-    font = Monospace 10
-    background_color = "#090b11"
+    font = Terminus 12
+    background_color = "#0d0d0d"
     scrollback_infinite = True
 [layouts]
   [[default]]
