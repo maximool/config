@@ -1,4 +1,4 @@
-BoldAsFont=no
+BoldAsFont=yes
 FontHeight=9
 Locale=fr_FR
 Charset=UTF-8
@@ -7,7 +7,7 @@ Term=xterm-256color
 BellType=0
 Transparency=low
 CursorType=block
-Font=DejaVu Sans Mono
+Font=Lucida Console
 CursorColor=
 ForegroundColour=131,148,150
 BackgroundColour=0,43,54
