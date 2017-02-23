@@ -7,8 +7,10 @@ colorscheme default
 " active tous les plugins compris dans le package, notamment netrw (avec
 " la commande `:E`)
 filetype plugin on
-" style classique de netrw
+" configuration de netrw
+let g:netrw_banner=0
 let g:netrw_liststyle=0
+let g:netrw_winsize=15
 " change automatiquement le pwd en fonction du fichier actif
 set autochdir
 " l'arrière plan peut être foncé ("dark") ou clair ("light"), la
