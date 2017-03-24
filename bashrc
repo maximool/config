@@ -34,3 +34,8 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM='auto'
+
+# http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper
+export WORKON_HOME=~/.virtualenvs
+mkdir -p $WORKON_HOME
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
