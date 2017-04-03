@@ -9,3 +9,4 @@ shell -/bin/bash
 startup_message off
 term xterm-256color
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
+vbell off
