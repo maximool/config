@@ -34,6 +34,8 @@
 	ssl = stash list
 	ssp = stash pop
 	st = status
+[color]
+	ui = true
 [push]
 	default = matching
 [core]
