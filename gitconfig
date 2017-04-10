@@ -33,6 +33,7 @@
 	ssc = stash clear
 	ssl = stash list
 	ssp = stash pop
+	sss = stash save
 	st = status
 [color]
 	ui = true
