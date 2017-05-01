@@ -53,6 +53,7 @@ set ruler
 " Cette commande indique le nombre d'espace à insérer lorsque l'on
 " essaie de convertir les tabulations en espaces (`:set expandtab`)
 set shiftwidth=4
+set expandtab
 " Affiche la commande en bas à droite
 set showcmd
 " Lorsque le curseur est sur un symbole marquant la fin ou le début
