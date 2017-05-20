@@ -20,6 +20,7 @@
 	he = help
 	lo = log
 	loo = log --oneline
+	looag = log --oneline --all --graph
 	me = merge
 	pl = pull
 	ps = push
