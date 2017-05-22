@@ -7,6 +7,6 @@ escape ^Aa
 hardstatus alwayslastline '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
 shell -/bin/bash
 startup_message off
-term xterm-256color
+term "screen-256color"
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
 vbell off
