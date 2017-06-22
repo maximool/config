@@ -15,12 +15,12 @@
 	cmam = commit --amend
 	co = config
 	di = diff
+	diw = diff --word-diff
 	fe = fetch
 	fea = fetch --all
 	he = help
 	lo = log
 	loo = log --oneline
-	looag = log --oneline --all --graph
 	me = merge
 	pl = pull
 	ps = push
@@ -37,9 +37,10 @@
 	ssp = stash pop
 	sss = stash save
 	st = status
+	tree = log --all --decorate --graph --oneline
 [color]
 	ui = true
 [push]
 	default = matching
 [core]
-	editor=vim
+	editor = vim
