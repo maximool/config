@@ -6,7 +6,7 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 colorscheme default
 " Active tous les plugins compris dans le package, notamment netrw (avec
 " la commande `:E`)
-filetype plugin on
+filetype plugin indent on
 " Configuration de netrw
 let g:netrw_banner=0
 let g:netrw_liststyle=0
