@@ -1,82 +1,74 @@
 " http://vim.wikia.com/wiki/Example_vimrc
-" Interprète les fichiers .md comme du Markdown
+" Markdown correclty detected and highlighted
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-" Thème transparent, default fait plus flashy mais il est
-" installé par défaut
+" Enforces default theme
 colorscheme default
-" Active tous les plugins compris dans le package, notamment netrw (avec
-" la commande `:E`)
+" Enables every out-of-the-box available plugins (netrw most notably)
 filetype plugin indent on
-" Configuration de netrw
+" A few configuration lines for netrw
 let g:netrw_banner=0
 let g:netrw_liststyle=0
 let g:netrw_winsize=15
-" Change automatiquement le pwd en fonction du fichier actif
+" Automatically change working directory according to currently edited
+" file location
 set autochdir
-" L'arrière plan peut être foncé ("dark") ou clair ("light"), la
-" plupart des jeux de couleurs s'adapteront en conséquence
+" Enforces dark background (most colorschemes support both dark and
+" light backgrounds)
 set background=dark
-" Règle d'éventuels problèmes d'interprétation de la touche retour sous
-" d'anciens émulateurs
+" Workaround weird backspace interpretations under old terminal
+" emulators
 set backspace=2
-" Le passer à 2 permet d'éviter d'avoir à taper 'Entrée' lors d'un
-" message trop grand
+" Enforces a fixed height for the menu buffer
 set cmdheight=1
-" Retire le message d'erreur lorsque l'on essaie de fermer un fichier
-" modifié et propose de l'enregistrer
+" Asks to overwrite/close a buffer instead of displaying an error
 set confirm
-" Souligne la ligne où se trouve le curseur
+" Underline the line on which the cursor is
 set cursorline
-" L'encodage, indispensable
+" Enforces proper file encoding
 set encoding=UTF-8
 set fileencoding=UTF-8
-" Met en surbrillance les résultats des recherches
+" Highlights matched elements when searching
 set hlsearch
-" Commence la recherche avant validation par l'utilisateur
+" Starts searching before the user hits Enter
 set incsearch
-" Ignore la casse lors d'une recherche
+" Case insensitive search by default
 set ignorecase
-" Affiche des informations sur la barre de commande
+" Displays extra information on the command bar
 set laststatus=2
-" Pour coller avec la souris
+" Allows pasting with mouse
 set mouse=a
-" Désactive le mode de compatibilité avec vi
+" Totally overrides old vi compatibility mode
 set nocompatible
-" Affiche le numéro de la ligne dans une marge à gauche
+" Displays line number
 set number
-" Ajoute à l'autocomplétion plein texte classique (Ctrl+P) une
-" autocomplétion basée sur le langage du fichier en cours d'édition
-" (ne marche pas forcément bien, dépend de la version de vim)
+" Language specific, plugins-and-macros-based autocompletion
 set omnifunc=syntaxcomplete#Complete
-" Menu en bas de l'écran
+" Always displays the command/menu bar
 set ruler
-" Cette commande indique le nombre d'espace à insérer lorsque l'on
-" essaie de convertir les tabulations en espaces (`:set expandtab`)
+" Sets how many spaces a tab should be replaced by when using the
+" `retab` command
 set shiftwidth=4
 set expandtab
-" Affiche la commande en bas à droite
+" Displays currently typed command in the command/menu bar
 set showcmd
-" Lorsque le curseur est sur un symbole marquant la fin ou le début
-" d'un bloc (typiquement une parenthèse, un crochet ou une accolade)
-" cette option met aussi en surbrillance le symbole correspondant
+" Highlights matching bracket/braces
 set showmatch
-" Affiche le mode actuel
+" Displays current mode in command/menu bar
 set showmode
-" Permet de chercher/remplacer sans prendre en compte la casse
+" Case insensitive search/replace by default
 set smartcase
-" Indentation automatique
+" Almost automatic indentation
 set smartindent
-" Calibration du terminal pour les jeux de couleurs
+" Enforces 256 colors terminal interpretation
 set t_Co=256
-" Remplace toutes nouvelle tabulation insérée par X espaces (quatre en
-" l'occurrence)
+" Each new typed tab is actually interpreted as x (here 4) spaces
 set tabstop=4
-" Ces deux options facilitent l'utilisation de la souris
+" Eases the use of the mouse
 set ttyfast
 set ttymouse=sgr
-" Active l'autocomplétion des commandes et des fichiers
+" Commands and filenames autocompletion
 set wildmenu
-" Active la coloration syntaxique si besoin est
+" Enforces syntax highlighting for supported (i.e. most languages)
 syntax on
-" Colore la colonne 80 (pour rappel des bonnes règles d'indentation)
+" PEP8 reminder
 set colorcolumn=73,80
