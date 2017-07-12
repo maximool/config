@@ -79,4 +79,4 @@ set wildmenu
 " Active la coloration syntaxique si besoin est
 syntax on
 " Colore la colonne 80 (pour rappel des bonnes règles d'indentation)
-set colorcolumn=80
+set colorcolumn=73,80
