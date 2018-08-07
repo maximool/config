@@ -1,0 +1,7 @@
+alias grep='grep --colour=auto'
+alias jo='jobs -l'
+alias la='ls --almost-all --human-readable -l'
+alias ll='ls --human-readable -l'
+alias ping='ping -c 4'
+alias up='uptime'
+alias vi='vim'

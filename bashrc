@@ -1,14 +1,10 @@
 #####################
 # Ajouts personnels #
 #####################
-alias grep='grep --colour=auto'
-alias jo='jobs -l'
-alias la='ls --almost-all --human-readable -l'
-alias ll='ls --human-readable -l'
-alias ping='ping -c 4'
-alias up='uptime'
-alias vi='vim'
+# good pratice here: isolating aliases into a dedicated file
+source $HOME/.bash_aliases
 
+# adding to usually created folder to PATH
 if [ -d "$HOME/bin" ]
 then
     PATH="$HOME/bin:$PATH"
