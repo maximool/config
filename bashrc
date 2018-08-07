@@ -4,7 +4,7 @@
 # good pratice here: isolating aliases into a dedicated file
 source $HOME/.bash_aliases
 
-# adding to usually created folder to PATH
+# adding usually created folder to PATH
 if [ -d "$HOME/bin" ]
 then
     PATH="$HOME/bin:$PATH"
