@@ -1,6 +1,6 @@
-#####################
-# Ajouts personnels #
-#####################
+##################
+# Custom options #
+##################
 # good pratice here: isolating aliases into a dedicated file
 source $HOME/.bash_aliases
 
@@ -18,13 +18,15 @@ then
         if [ -d "$HOME/softwares/$software/bin" ]
         then
             PATH="$HOME/softwares/$software/bin:$PATH"
+        else
+            PATH="$HOME/softwares/$software:$PATH"
         fi
     done
     export PATH
 fi
 
-# cf. /usr/lib/git-core/git-sh-prompt. Voir aussi les ajouts de "$(__git_ps1)"
-# à la fin de PS1 ci-haut
+# cf. /usr/lib/git-core/git-sh-prompt (__git_ps1 function call must be
+# added to PS1)
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
