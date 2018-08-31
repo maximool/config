@@ -19,6 +19,7 @@
     fe = fetch
     fea = fetch --all
     he = help
+    lfm = ls-files -m
     lo = log
     loo = log --oneline
     lsf = ls-files
