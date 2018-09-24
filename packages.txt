@@ -1,13 +1,17 @@
+aptitude
 curl
 geany
 guile
 htop
 keepassx
+libav-tools
 lmodern
+net-tools
 nmap
 python3
 rsync
 sqlite3
+sysstat
 texlive-fonts-extra
 texlive-fonts-recommended
 texlive-lang-french
