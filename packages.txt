@@ -10,6 +10,7 @@ net-tools
 nmap
 python3
 rsync
+shellcheck
 sqlite3
 sysstat
 texlive-fonts-extra
