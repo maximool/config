@@ -1,8 +1,10 @@
 aptitude
 curl
 geany
+gimp
 guile
 htop
+inkscape
 keepassx
 libav-tools
 lmodern
@@ -22,3 +24,4 @@ tshark
 vim-nox
 virtualenvwrapper
 wget
+whois
