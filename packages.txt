@@ -1,12 +1,13 @@
+#geany
+#gimp
+#libav-tools
 aptitude
 curl
-geany
-gimp
+ffmpeg
 guile
 htop
 inkscape
 keepassx
-libav-tools
 lmodern
 net-tools
 nmap
