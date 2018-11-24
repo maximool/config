@@ -1,6 +1,3 @@
-#geany
-#gimp
-#libav-tools
 aptitude
 curl
 ffmpeg
@@ -21,7 +18,6 @@ texlive-fonts-recommended
 texlive-lang-french
 texlive-latex-extra
 texlive-latex-recommended
-tshark
 vim-nox
 virtualenvwrapper
 wget
