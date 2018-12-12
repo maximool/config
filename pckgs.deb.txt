@@ -1,6 +1,7 @@
 aptitude
 curl
 ffmpeg
+filezilla
 guile
 htop
 inkscape

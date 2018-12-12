@@ -1,6 +1,7 @@
 ##################
 # Custom options #
 ##################
+
 # good pratice here: isolating aliases into a dedicated file
 source $HOME/.bash_aliases
 
@@ -49,4 +50,7 @@ export VISUAL=vim
 export HISTTIMEFORMAT='%F %T '
 
 # Cygwin-only PS1
-export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+# export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+
+# Flatshare IP (courtesy of @mdamien)
+export FLAT=""
