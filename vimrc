@@ -74,6 +74,6 @@ syntax on
 set colorcolumn=73,80
 " straightforward yet useful macros
 let e='ggVGd'
-let l=':set expandtab<Enter>:retab<Enter>%s/\s\+$//g<Enter>:set ff=unix<Enter>'
+let l=':set expandtab<Enter>:retab<Enter>:%s/\s\+$//g<Enter>:set ff=unix<Enter>'
 let p=':set paste<Enter>'
 let s=':sort u<Enter>'
