@@ -1,3 +1,4 @@
+R
 ShellCheck
 VirtualBox
 adwaita-cursor-theme
@@ -12,7 +13,7 @@ greybird-*
 guile
 htop
 java
-keepassx
+keepass
 kernel-devel
 nano
 net-tools

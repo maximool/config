@@ -5,11 +5,12 @@ filezilla
 guile
 htop
 inkscape
-keepassx
+keepass2
 lmodern
 net-tools
 nmap
 python3
+r-recommended
 rsync
 shellcheck
 sqlite3
