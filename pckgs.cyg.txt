@@ -13,6 +13,7 @@ gzip
 hostname
 inetutils
 less
+make
 mintty
 nano
 openssh
@@ -22,7 +23,6 @@ rsync
 screen
 sed
 tar
-tcl
 terminator
 tig
 tmux
@@ -30,9 +30,9 @@ unzip
 vim
 wget
 which
+whois
 xinit
 xlaunch
 xorg-docs
 xorg-server
 zip
-zlib-devel
