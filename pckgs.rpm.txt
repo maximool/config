@@ -1,7 +1,7 @@
 R
 ShellCheck
 VirtualBox
-adwaita-cursor-theme
+adwaita-cursor-themes
 curl
 elementary-xfce-icon-theme
 elfutils-libelf-devel
