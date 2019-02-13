@@ -49,8 +49,16 @@ export VISUAL=vim
 # custom history lines
 export HISTTIMEFORMAT='%F %T '
 
-# Cygwin-only PS1
-# export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+# Epic PS1 time
+## Cygwin-only
+# PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+## CentOS and Fedora
+# PS1='[\u@\h \W]$(__git_ps1)\$ '
+## Debian based
+# TODO
 
 # Flatshare IP (courtesy of @mdamien)
 export FLAT=""
+
+# OKD and OpenShift default resources editor
+export OC_EDITOR=vim
