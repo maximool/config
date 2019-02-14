@@ -1,6 +1,3 @@
-[user]
-    name = Maxime Margerin
-    email =
 [alias]
     ad = add
     ada = add --all .
@@ -42,7 +39,14 @@
     tree = log --all --decorate --graph --oneline
 [color]
     ui = true
-[push]
-    default = matching
 [core]
     editor = vim
+    fscache = true
+    preloadindex = true
+[gc]
+    auto = 256
+[push]
+    default = matching
+[user]
+    email =
+    name =
