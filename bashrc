@@ -2,7 +2,7 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+    . /etc/bashrc
 fi
 
 # User specific environment
@@ -54,7 +54,8 @@ export GIT_PS1_SHOWUPSTREAM='auto'
 # http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper
 export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+# may be copied in /usr/bin during package install
+# source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 # https://stackoverflow.com/questions/6787734/strange-behavior-of-vim-color-inside-screen-with-256-colors
 export TERM='xterm-256color'
