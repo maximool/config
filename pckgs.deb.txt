@@ -17,7 +17,6 @@ rsync
 shellcheck
 sysstat
 thunderbird
-tmux
 transmission
 vim-nox
 virtualenvwrapper
