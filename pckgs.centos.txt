@@ -1,13 +1,11 @@
-R
 ShellCheck
-VirtualBox
 curl
 ffmpeg
 filezilla
 git
 golang
-guile
 htop
+inkscape
 java
 keepass
 nano
@@ -17,8 +15,6 @@ python-virtualenvwrapper
 python36
 python36-devel
 rsync
-screen
-sqlite
 sysstat
 thunderbird
 tmux
