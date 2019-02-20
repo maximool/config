@@ -17,6 +17,7 @@ nmap
 python3
 python3-devel
 python3-virtualenvwrapper
+redshift-gtk
 rsync
 sysstat
 terminator
