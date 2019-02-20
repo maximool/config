@@ -1,5 +1,5 @@
 ShellCheck
-adwaita-cursor-themes
+adwaita-cursor-theme
 curl
 elementary-xfce-icon-theme
 ffmpeg
