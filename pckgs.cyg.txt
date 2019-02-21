@@ -1,6 +1,4 @@
-bash
 bash-completion
-ca-certificates
 cpio
 curl
 gcc-core
@@ -9,20 +7,14 @@ inetutils
 make
 nano
 openssh
-python3
-python3-devel
 rsync
-screen
 terminator
-tig
 tmux
 unzip
 vim
 wget
-which
 whois
 xinit
 xlaunch
-xorg-docs
 xorg-server
 zip
