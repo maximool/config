@@ -21,6 +21,9 @@ redshift-gtk
 rsync
 sysstat
 terminator
+texlive-collection-langfrench
+texlive-latex
+texlive-moderncv
 thunderbird
 transmission
 vim
