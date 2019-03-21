@@ -72,8 +72,8 @@ set wildmenu
 syntax on
 " PEP8 reminder
 set colorcolumn=73,80
-" straightforward yet useful macros
-let e='ggVGd'
-let l=':set expandtab<Enter>:retab<Enter>:%s/\s\+$//g<Enter>:set ff=unix<Enter>'
-let p=':set paste<Enter>'
-let s=':sort u<Enter>'
+" simple yet useful macros
+let @e='ggVGd'
+let @l=':set expandtab:retab:%s/\s\+$//g:set ff=unix'
+let @p=':set paste'
+let @s=':sort u'
