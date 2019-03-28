@@ -17,7 +17,6 @@ python36
 python36-devel
 rsync
 sysstat
-terminator
 thunderbird
 transmission
 vim

@@ -8,7 +8,6 @@ make
 nano
 openssh
 rsync
-terminator
 tmux
 unzip
 vim

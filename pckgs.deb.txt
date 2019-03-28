@@ -16,7 +16,6 @@ python3-dev
 rsync
 shellcheck
 sysstat
-terminator
 thunderbird
 transmission
 vim-nox
