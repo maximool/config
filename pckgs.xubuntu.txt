@@ -1,18 +1,13 @@
 aptitude
 curl
 default-jre
-dmz-cursor-theme
 ffmpeg
 filezilla
-firmware-iwlwifi
-firmware-linux
 git
 golang
-gtk2-engines-murrine
 htop
 inkscape
 keepass2
-murrine-themes
 nano
 net-tools
 nmap
@@ -30,8 +25,3 @@ vlc
 wget
 whois
 xdotool
-xscreensaver
-xserver-xorg-input-evdev
-xserver-xorg-input-libinput
-xserver-xorg-input-mouse
-xserver-xorg-input-synaptics
