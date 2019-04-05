@@ -42,3 +42,4 @@ ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingLines=5000
 ScrollingOnOutput=FALSE
 TabActivityColor=#0f4999
+TitleMode=TERMINAL_TITLE_HIDE
