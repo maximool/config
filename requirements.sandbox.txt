@@ -1,0 +1,4 @@
+ipython
+requests
+tqdm
+youtube-dl
