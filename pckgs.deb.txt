@@ -11,6 +11,7 @@ golang
 gtk2-engines-murrine
 htop
 inkscape
+irqbalance
 keepass2
 murrine-themes
 nano
