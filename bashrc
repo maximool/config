@@ -73,10 +73,11 @@ export HISTTIMEFORMAT='%F %T '
 ## CentOS and Fedora
 # PS1='[\u@\h \W]$(__git_ps1)\$ '
 ## Debian based
-# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w $(__git_ps1)\$\[\033[00m\] '
+# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\$\[\033[00m\] '
 
 # Flatshare IP (courtesy of @mdamien)
 export FLAT=""
+export RASP=""
 
 # OKD and OpenShift default resources editor
 export OC_EDITOR=vim
