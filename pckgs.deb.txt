@@ -1,4 +1,6 @@
 aptitude
+blueman
+bluetooth
 curl
 default-jre
 dmz-cursor-theme
@@ -23,7 +25,11 @@ redshift-gtk
 rsync
 shellcheck
 sysstat
+texlive-fonts-extra
+texlive-lang-french
+texlive-latex-extra
 thunderbird
+tmux
 transmission
 vim-nox
 virtualenvwrapper
@@ -35,4 +41,3 @@ xscreensaver
 xserver-xorg-input-evdev
 xserver-xorg-input-libinput
 xserver-xorg-input-mouse
-xserver-xorg-input-synaptics

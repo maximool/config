@@ -24,6 +24,7 @@ texlive-collection-langfrench
 texlive-latex
 texlive-moderncv
 thunderbird
+tmux
 transmission
 vim
 vlc

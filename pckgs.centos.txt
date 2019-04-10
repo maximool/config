@@ -18,6 +18,7 @@ python36-devel
 rsync
 sysstat
 thunderbird
+tmux
 transmission
 vim
 vlc
