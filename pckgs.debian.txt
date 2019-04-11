@@ -25,6 +25,8 @@ redshift-gtk
 rsync
 shellcheck
 sysstat
+task-laptop
+task-xfce-desktop
 texlive-fonts-extra
 texlive-lang-french
 texlive-latex-extra
@@ -38,6 +40,4 @@ wget
 whois
 xdotool
 xscreensaver
-xserver-xorg-input-evdev
-xserver-xorg-input-libinput
-xserver-xorg-input-mouse
+xserver-xorg-input-synaptics
