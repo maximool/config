@@ -11,5 +11,5 @@ MiddleClickAction=enter
 RightClickAction=paste
 Scrollbar=none
 Term=xterm-256color
-ThemeFile=solarized
+ThemeFile=base16-solarized-dark
 Transparency=low
