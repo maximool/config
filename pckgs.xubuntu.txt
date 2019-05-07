@@ -17,6 +17,9 @@ redshift-gtk
 rsync
 shellcheck
 sysstat
+texlive-fonts-extra
+texlive-lang-french
+texlive-latex-extra
 thunderbird
 tmux
 transmission
@@ -26,3 +29,4 @@ vlc
 wget
 whois
 xdotool
+xscreensaver
