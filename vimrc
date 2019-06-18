@@ -77,3 +77,5 @@ let @e='ggVGd'
 let @l=':set expandtab:retab:%s/\s\+$//g:set ff=unix'
 let @p=':set paste'
 let @s=':sort u'
+" CVE-2019-12735
+set nomodeline
