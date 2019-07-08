@@ -2,7 +2,7 @@ ShellCheck
 curl
 ffmpeg
 filezilla
-git
+git2u-all
 golang
 htop
 inkscape
