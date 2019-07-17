@@ -2,6 +2,7 @@ bash-completion
 cpio
 curl
 gcc-core
+geany
 git
 inetutils
 make

@@ -2,6 +2,7 @@ ShellCheck
 curl
 ffmpeg
 filezilla
+geany
 git2u-all
 golang
 htop

@@ -4,6 +4,7 @@ curl
 elementary-xfce-icon-theme
 ffmpeg
 filezilla
+geany
 git
 golang
 greybird-*
