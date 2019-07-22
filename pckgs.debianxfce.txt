@@ -9,6 +9,7 @@ ffmpeg
 filezilla
 firmware-iwlwifi
 firmware-linux
+fonts-droid-fallback
 geany
 git
 gtk2-engines-murrine
