@@ -10,9 +10,11 @@ filezilla
 firmware-iwlwifi
 firmware-linux
 fonts-droid-fallback
+fonts-inconsolata
 geany
 git
 gtk2-engines-murrine
+gvfs-backends
 htop
 inkscape
 irqbalance
