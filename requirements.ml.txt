@@ -1,3 +1,4 @@
+datatable
 jupyterlab
 matplotlib
 numpy
