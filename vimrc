@@ -71,7 +71,7 @@ set wildmenu
 " Enforces syntax highlighting for supported (i.e. most languages)
 syntax on
 " PEP8 reminder
-set colorcolumn=73,80
+" set colorcolumn=73,80
 " simple yet useful macros
 let @e='ggVGd'
 let @l=':set expandtab:retab:%s/\s\+$//g:set ff=unix'
