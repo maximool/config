@@ -46,7 +46,7 @@
 [gc]
     auto = 256
 [push]
-    default = matching
+    default = simple
 [user]
     email =
     name =
