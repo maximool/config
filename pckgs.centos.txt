@@ -3,7 +3,7 @@ curl
 ffmpeg
 filezilla
 geany
-git2u-all
+git
 golang
 htop
 inkscape
