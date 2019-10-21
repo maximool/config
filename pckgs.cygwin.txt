@@ -13,7 +13,4 @@ unzip
 vim
 wget
 whois
-xinit
-xlaunch
-xorg-server
 zip
