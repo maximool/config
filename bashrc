@@ -28,7 +28,7 @@ fi
 
 # cf. /usr/lib/git-core/git-sh-prompt (__git_ps1 function call must be
 # added to PS1)
-source ~/.git-prompt.sh
+source /etc/bash_completion.d/git-prompt
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
@@ -38,7 +38,7 @@ export GIT_PS1_SHOWUPSTREAM='auto'
 export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
 # may be copied in /usr/bin during package install
-# source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 # https://stackoverflow.com/questions/6787734/strange-behavior-of-vim-color-inside-screen-with-256-colors
 export TERM='xterm-256color'
