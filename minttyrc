@@ -11,5 +11,5 @@ MiddleClickAction=enter
 RightClickAction=paste
 Scrollbar=none
 Term=xterm-256color
-ThemeFile=base16-eighties.minttyrc
+ThemeFile=base16-solarized-dark.minttyrc
 Transparency=off
