@@ -21,6 +21,8 @@ keepass2
 murrine-themes
 net-tools
 nmap
+python3
+python3-dev
 redshift-gtk
 rsync
 shellcheck
@@ -29,8 +31,10 @@ texlive-fonts-extra
 texlive-lang-french
 texlive-latex-extra
 thunderbird
+tmux
 transmission
 vim-nox
+virtualenvwrapper
 vlc
 wget
 whois
