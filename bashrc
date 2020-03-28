@@ -26,9 +26,12 @@ then
     export PATH
 fi
 
-# cf. /usr/lib/git-core/git-sh-prompt (__git_ps1 function call must be
-# added to PS1)
-source /etc/bash_completion.d/git-prompt
+# Git completion for Bash:
+# 1. source the plugin script:
+source /etc/bash_completion.d/git-prompt  # Debian-based
+# source /usr/share/git-core/contrib/completion/git-prompt.sh  # Fedora-based
+# 2. customize PS1:
+PS1='[\u@\h \W]$(__git_ps1)\$ '  # Fedora-based
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
