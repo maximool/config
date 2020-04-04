@@ -28,14 +28,20 @@ fi
 
 # Git completion for Bash:
 # 1. source the plugin script:
-source /etc/bash_completion.d/git-prompt  # Debian-based
-# source /usr/share/git-core/contrib/completion/git-prompt.sh  # Fedora-based
+# source /etc/bash_completion.d/git-prompt  # Debian-based
+source /usr/share/git-core/contrib/completion/git-prompt.sh  # Fedora-based
 # 2. customize PS1:
 PS1='[\u@\h \W]$(__git_ps1)\$ '  # Fedora-based
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM='auto'
+
+# http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper
+export WORKON_HOME=~/.virtualenvs
+mkdir -p $WORKON_HOME
+# may be copied in /usr/bin during package install
+# source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 # https://stackoverflow.com/questions/6787734/strange-behavior-of-vim-color-inside-screen-with-256-colors
 export TERM='xterm-256color'
