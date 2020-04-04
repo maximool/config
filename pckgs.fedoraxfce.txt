@@ -20,6 +20,7 @@ python3-virtualenvwrapper
 redshift-gtk
 rsync
 sysstat
+texlive-collection-fontsrecommended
 texlive-collection-langfrench
 texlive-latex
 texlive-moderncv
