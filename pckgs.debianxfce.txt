@@ -40,5 +40,6 @@ vlc
 wget
 whois
 xdotool
+xfce4-whiskermenu-plugin
 xscreensaver
 xserver-xorg-input-synaptics
