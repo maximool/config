@@ -11,10 +11,6 @@ fi
 # if [ -z "$TMUX" ]
 # then
 #     eval $(ssh-agent -s)
-#     ssh-add \
-#         "$HOME/.ssh/hrp" \
-#         "$HOME/.ssh/id_dsa" \
-#         "$HOME/.ssh/id_rsa" \
-#         "$HOME/.ssh/trrfrm"
+#     ssh-add "$HOME"/.ssh/id_???"
 #     tmux
 # fi
