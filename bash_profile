@@ -11,6 +11,6 @@ fi
 # if [ -z "$TMUX" ]
 # then
 #     eval $(ssh-agent -s)
-#     ssh-add "$HOME"/.ssh/id_???"
+#     ssh-add "$HOME"/.ssh/id_???
 #     tmux
 # fi
