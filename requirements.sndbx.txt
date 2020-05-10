@@ -1,4 +1,6 @@
+ansible
 ipython
+jupyterlab
 requests
 tqdm
 youtube-dl
