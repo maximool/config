@@ -1,4 +1,3 @@
-aptitude
 atril
 blueman
 bluetooth
