@@ -1,6 +1,6 @@
 ansible
+chardet
 ipython
-jupyterlab
 requests
 tqdm
 youtube-dl
