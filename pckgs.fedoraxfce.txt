@@ -1,9 +1,7 @@
 ShellCheck
-adwaita-cursor-theme
 atril
 curl
-elementary-xfce-icon-theme
-ffmpeg
+dmz-cursor-themes
 filezilla
 geany
 geany-themes
@@ -24,7 +22,6 @@ thunderbird
 tmux
 transmission
 vim
-vlc
 wget
 whois
 xfce4-whiskermenu-plugin
