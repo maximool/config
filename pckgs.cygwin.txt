@@ -1,4 +1,5 @@
 bash-completion
+bind-utils
 cpio
 curl
 git
