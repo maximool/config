@@ -4,6 +4,8 @@ ffmpeg
 filezilla
 firmware-linux
 firmware-realtek
+fonts-inconsolata
+geany
 git
 htop
 irqbalance

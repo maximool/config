@@ -1,6 +1,0 @@
-ansible
-chardet
-ipython
-requests
-tqdm
-youtube-dl

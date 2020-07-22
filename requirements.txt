@@ -1,4 +1,7 @@
+ansible
+chardet
 datatable
+ipython
 jupyterlab
 matplotlib
 numpy
@@ -7,4 +10,6 @@ plotly
 requests
 scikit-learn
 scipy
+tqdm
 voila
+youtube-dl
