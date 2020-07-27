@@ -9,6 +9,7 @@ python3-dev
 rsync
 screen
 shellcheck
+sqlite3
 sysstat
 vim-nox
 virtualenvwrapper
