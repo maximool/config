@@ -4,6 +4,7 @@ cpio
 curl
 git
 inetutils
+mosh
 openssh
 rsync
 tmux

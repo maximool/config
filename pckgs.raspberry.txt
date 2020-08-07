@@ -2,6 +2,7 @@ curl
 ffmpeg
 git
 htop
+mosh
 net-tools
 nmap
 python3

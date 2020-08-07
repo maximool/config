@@ -17,6 +17,7 @@ gvfs-backends
 htop
 irqbalance
 keepass2
+mosh
 murrine-themes
 net-tools
 nmap
