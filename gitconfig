@@ -45,6 +45,8 @@
     preloadindex = true
 [gc]
     auto = 256
+[pull]
+	rebase = false
 [push]
     default = simple
 [user]
