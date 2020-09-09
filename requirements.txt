@@ -1,6 +1,6 @@
+#datatable
 ansible
 chardet
-datatable
 ipython
 jupyterlab
 matplotlib
