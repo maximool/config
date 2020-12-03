@@ -1,9 +1,10 @@
 #datatable
-ansible
+ansible<3
 chardet
 ipython
 jupyterlab
 matplotlib
+neo4j<4
 numpy
 pandas
 plotly
