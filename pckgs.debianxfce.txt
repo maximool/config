@@ -25,6 +25,7 @@ python3
 python3-dev
 redshift-gtk
 rsync
+screen
 shellcheck
 sqlite3
 sqlitebrowser
