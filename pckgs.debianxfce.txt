@@ -21,6 +21,7 @@ mosh
 murrine-themes
 net-tools
 nmap
+openssh-server
 python3
 python3-dev
 redshift-gtk
