@@ -16,7 +16,7 @@ gtk2-engines-murrine
 gvfs-backends
 htop
 irqbalance
-keepass2
+keepassxc
 mosh
 murrine-themes
 net-tools
@@ -40,7 +40,6 @@ virtualenvwrapper
 vlc
 wget
 whois
-xdotool
 xfce4-whiskermenu-plugin
 xscreensaver
 xserver-xorg-input-synaptics
