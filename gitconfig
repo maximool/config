@@ -40,13 +40,13 @@
 [color]
     ui = true
 [core]
-    editor = vim
+    editor = vim -c 'startinsert'
     fscache = true
     preloadindex = true
 [gc]
     auto = 256
 [pull]
-	rebase = false
+    rebase = false
 [push]
     default = simple
 [user]
