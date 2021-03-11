@@ -1,4 +1,3 @@
-ansible<3
 chardet
 datatable
 ipython
