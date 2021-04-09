@@ -10,7 +10,6 @@ firmware-iwlwifi
 firmware-linux
 fonts-droid-fallback
 fonts-inconsolata
-geany
 git
 gtk2-engines-murrine
 gvfs-backends
@@ -35,6 +34,7 @@ thunderbird
 thunderbird-l10n-fr
 tmux
 transmission
+vim-gtk
 vim-nox
 virtualenvwrapper
 vlc
