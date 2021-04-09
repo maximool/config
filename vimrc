@@ -46,7 +46,7 @@ set omnifunc=syntaxcomplete#Complete
 " Always displays the command/menu bar
 set ruler
 " Sets how many spaces a tab should be replaced by when using the
-" `retab` command
+" `:retab` command
 set shiftwidth=4
 set expandtab
 " Displays currently typed command in the command/menu bar
