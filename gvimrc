@@ -1,3 +1,4 @@
+autocmd VimEnter * Vexplore
 " https://github.com/altercation/vim-colors-solarized
 colorscheme solarized
 set background=light
