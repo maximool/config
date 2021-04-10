@@ -2,6 +2,8 @@ autocmd VimEnter * Vexplore
 " https://github.com/altercation/vim-colors-solarized
 colorscheme solarized
 set background=light
+" https://vim.fandom.com/wiki/Accessing_the_system_clipboard
+set clipboard^=unnamed,unnamedplus
 set guifont=Inconsolata\ Medium\ 10
 " https://vim.fandom.com/wiki/Hide_toolbar_or_menus_to_see_more_text
 set guioptions-=L
