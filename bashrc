@@ -53,7 +53,7 @@ export VISUAL=vim
 # custom history lines
 export HISTTIMEFORMAT='%F %T '
 
-# Flatshare IP (courtesy of @mdamien)
+# Formerly flatshare IP (courtesy of @mdamien)
 export FLAT=""
 export RASP=""
 
