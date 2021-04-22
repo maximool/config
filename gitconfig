@@ -43,6 +43,7 @@
     # editor = vim -c 'startinsert'
     editor = nano
     fscache = true
+    hideDotFiles = false
     preloadindex = true
 [gc]
     auto = 256
