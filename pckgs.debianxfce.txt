@@ -13,6 +13,7 @@ fonts-inconsolata
 git
 gtk2-engines-murrine
 gvfs-backends
+hplip
 htop
 irqbalance
 keepassxc

@@ -1,4 +1,4 @@
-autocmd VimEnter * Vexplore
+" autocmd VimEnter * Vexplore
 " https://github.com/altercation/vim-colors-solarized
 colorscheme solarized
 set background=light
@@ -11,6 +11,6 @@ set guioptions-=T
 set guioptions-=m
 set guioptions-=r
 " https://vim.fandom.com/wiki/Maximize_or_set_initial_window_size
-set lines=999 columns=999
+" set lines=999 columns=999
 " removes `:intro` buffer at startup
 set shortmess+=I
