@@ -45,6 +45,7 @@
     fscache = true
     hideDotFiles = false
     preloadindex = true
+    # autocrlf = input
 [gc]
     auto = 256
 [pull]
@@ -54,3 +55,5 @@
 [user]
     email =
     name =
+[credential "helperselector"]
+    selected = <no helper>
