@@ -38,8 +38,8 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM='auto'
 
 # http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper
-export WORKON_HOME=~/.virtualenvs
-mkdir -p $WORKON_HOME
+# export WORKON_HOME=~/.virtualenvs
+# mkdir -p $WORKON_HOME
 # may be copied in /usr/bin during package install
 # source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
@@ -59,3 +59,8 @@ export RASP=""
 
 # OKD and OpenShift default resources editor
 export OC_EDITOR=vim
+
+# Node Version Manager
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
