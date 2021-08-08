@@ -2,6 +2,7 @@ atril
 blueman
 bluetooth
 curl
+deborphan
 default-jdk
 dmz-cursor-theme
 ffmpeg
