@@ -35,6 +35,7 @@ sysstat
 thunderbird
 thunderbird-l10n-fr
 tmux
+traceroute
 transmission
 vim-gtk
 vim-nox
