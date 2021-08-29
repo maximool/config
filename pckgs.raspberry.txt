@@ -3,6 +3,7 @@ ffmpeg
 git
 htop
 mosh
+nano
 net-tools
 nmap
 python3

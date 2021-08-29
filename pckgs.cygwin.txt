@@ -5,6 +5,7 @@ curl
 git
 inetutils
 mosh
+nano
 openssh
 rsync
 tmux
