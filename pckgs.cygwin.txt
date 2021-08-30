@@ -1,3 +1,5 @@
+aspell
+aspell-fr
 bash-completion
 bind-utils
 cpio

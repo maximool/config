@@ -1,3 +1,5 @@
+aspell
+aspell-fr
 curl
 ffmpeg
 git
