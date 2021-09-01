@@ -1,5 +1,7 @@
 " opens file explorer panel on startup
 autocmd VimEnter * Vexplore
+autocmd VimEnter * wincmd l
+autocmd VimEnter * startinsert
 " https://github.com/altercation/vim-colors-solarized
 colorscheme solarized
 set background=light
@@ -12,6 +14,6 @@ set guioptions-=T
 set guioptions-=m
 set guioptions-=r
 " https://vim.fandom.com/wiki/Maximize_or_set_initial_window_size
-set lines=999 columns=999
+set lines=9999 columns=9999
 " removes `:intro` buffer on startup
 set shortmess+=I
