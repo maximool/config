@@ -44,7 +44,7 @@ set showcursor
 set smarthome
 
 ## Use smooth scrolling as the default.
-set smooth
+# set smooth
 
 ## Spread overlong lines over multiple screen lines.
 set softwrap
