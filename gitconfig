@@ -42,7 +42,7 @@
 [color]
     ui = true
 [core]
-    # autocrlf = input
+    autocrlf = true
     editor = nano  # vim -c 'startinsert'
     # eol = lf
     fscache = true
@@ -53,7 +53,7 @@
 [gc]
     auto = 256
 [pull]
-    rebase = false
+    rebase = false  # false for fast-forward/recursive, merges to auto-rebase
 [push]
     default = simple
 [user]
