@@ -5,6 +5,7 @@ bind-utils
 cpio
 curl
 git
+gnupg2
 inetutils
 mosh
 nano
