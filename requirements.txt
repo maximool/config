@@ -1,12 +1,9 @@
 chardet
-datatable
 ipython
 jupyterlab
 matplotlib
-neo4j
 numpy
 pandas
-plotly
 requests
 scikit-learn
 scipy
