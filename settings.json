@@ -3,6 +3,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.fontSize": 12,
+    "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
     "latex-workshop.latex.autoBuild.run": "never",
     "markdown.preview.fontSize": 12,
