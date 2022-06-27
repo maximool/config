@@ -59,6 +59,7 @@ export FLAT=""
 export RASP=""
 
 # OKD and OpenShift default resources editor
+export KUBE_EDITOR=vim
 export OC_EDITOR=vim
 
 # Node Version Manager
