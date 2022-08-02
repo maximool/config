@@ -1,7 +1,7 @@
 " opens file explorer panel on startup
 autocmd VimEnter * Vexplore
-" autocmd VimEnter * wincmd l
-" autocmd VimEnter * startinsert
+autocmd VimEnter * wincmd l
+autocmd VimEnter * startinsert
 " https://github.com/altercation/vim-colors-solarized
 colorscheme solarized
 set background=light

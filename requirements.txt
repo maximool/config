@@ -10,3 +10,4 @@ scipy
 tqdm
 voila
 youtube-dl
+yt-dlp
