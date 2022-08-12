@@ -5,6 +5,7 @@
     "editor.fontSize": 12,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
+    "git.mergeEditor": false,
     "latex-workshop.latex.autoBuild.run": "never",
     "markdown.preview.fontSize": 12,
     "material-ui-snippets.showNotesOnStartup": false,
