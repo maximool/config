@@ -55,6 +55,7 @@
 [pull]
     rebase = false  # false for fast-forward/recursive, merges to auto-rebase
 [push]
+    autoSetupRemote = true
     default = simple
 [user]
     email =

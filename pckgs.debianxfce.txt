@@ -49,3 +49,4 @@ whois
 xfce4-whiskermenu-plugin
 xscreensaver
 xserver-xorg-input-synaptics
+zram-tools
