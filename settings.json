@@ -5,6 +5,9 @@
     "editor.fontSize": 12,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": false
+    },
     "git.autofetch": false,
     "git.autorefresh": false,
     "git.mergeEditor": false,
