@@ -9,7 +9,7 @@ fi
 # User specific environment and startup programs
 
 # Cygwin only
-if [ -z "$TMUX" -a $(env | grep -c VSCODE) -eq 0 ]
+if [ -z "$TMUX" -a $(env | grep -c -e IDEA -e VSCODE) -eq 0 ]
 then
     eval $(ssh-agent -s)
     ssh-add "$HOME"/.ssh/id_???

@@ -7,7 +7,7 @@ if [ "$SHLVL" = 1 ]; then
 fi
 
 # Cygwin only
-# if [ -z "$TMUX" ]
-# then
-#     ssh-agent -k
-# fi
+if [ -z "$TMUX" -a -z "$SSH_AGENT_PID" ]
+then
+    ssh-agent -k
+fi
