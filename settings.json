@@ -5,9 +5,6 @@
     "editor.fontSize": 12,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
-    "files.exclude": {
-        "**/.git": false
-    },
     "git.autofetch": false,
     "git.autorefresh": false,
     "git.mergeEditor": false,
@@ -20,6 +17,7 @@
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "sonarlint.ls.javaHome": "",
+    "sonarlint.pathToNodeExecutable": "",
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -28,6 +26,7 @@
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.tabs.enabled": true,
+    "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.enableExperiments": false,
