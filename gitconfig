@@ -42,9 +42,10 @@
 [color]
     ui = true
 [core]
-    autocrlf = true
+    autocrlf = input
     editor = nano  # vim -c 'startinsert'
-    # eol = lf
+    eol = native
+    filemode = false
     fscache = true
     hideDotFiles = false
     preloadindex = true
@@ -57,6 +58,8 @@
 [push]
     autoSetupRemote = true
     default = simple
+[rerere]
+	enabled = true
 [user]
     email =
     name =
