@@ -49,6 +49,8 @@
     fscache = true
     hideDotFiles = false
     preloadindex = true
+[credential]
+    helper =
 [credential "helperselector"]
     selected = <no helper>
 [gc]
