@@ -2,6 +2,8 @@
     "debug.console.fontSize": 12,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
