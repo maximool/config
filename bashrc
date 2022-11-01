@@ -58,7 +58,7 @@ export HISTTIMEFORMAT='%F %T '
 export FLAT=""
 export RASP=""
 
-# OKD and OpenShift default resources editor
+# Kubernetes, OKD and OpenShift default resources editor
 export KUBE_EDITOR=vim
 export OC_EDITOR=vim
 
