@@ -14,7 +14,7 @@ let g:netrw_winsize=15
 set autochdir
 " Enforces dark background (most colorschemes support both dark and
 " light backgrounds)
-set background=dark
+set background=light
 " Workaround weird backspace interpretations under old terminal
 " emulators
 set backspace=2

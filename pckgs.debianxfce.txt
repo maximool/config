@@ -12,7 +12,9 @@ filezilla
 firmware-iwlwifi
 firmware-linux
 fonts-droid-fallback
+fonts-firacode
 fonts-inconsolata
+fonts-jetbrains-mono
 git
 gtk2-engines-murrine
 gvfs-backends

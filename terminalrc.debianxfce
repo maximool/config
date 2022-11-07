@@ -1,10 +1,11 @@
 [Configuration]
-ColorBackground=#131926
+# https://github.com/sgerrand/xfce4-terminal-colors-solarized
+ColorBackground=#fdf6e3
 ColorBold=#ffffff
-ColorBoldUseDefault=FALSE
+ColorBoldUseDefault=TRUE
 ColorCursor=
-ColorForeground=#b7b7b7
-ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#ffffff
+ColorForeground=#657b83
+ColorPalette=#eee8d5;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#073642;#fdf6e3;#cb4b16;#93a1a1;#839496;#657b83;#6c71c4;#586e75;#002b36
 ColorSelection=#163b59
 ColorSelectionUseDefault=TRUE
 DropdownAlwaysShowTabs=FALSE
@@ -14,7 +15,7 @@ DropdownPosition=50
 DropdownPositionVertical=50
 DropdownShowBorders=TRUE
 DropdownWidth=95
-FontName=Inconsolata Medium 10
+FontName=JetBrains Mono 9
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
