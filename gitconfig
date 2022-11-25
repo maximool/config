@@ -12,7 +12,7 @@
     cmal = commit --all
     cmam = commit --amend
     co = config
-    di = diff
+    di = diff --ignore-cr-at-eol
     diw = diff --word-diff
     fe = fetch
     fea = fetch --all
@@ -30,10 +30,12 @@
     rb = rebase
     rf = reflog
     rs = reset
+    rts = restore --staged
     rv = revert
     ss = stash
     ssa = stash apply
     ssc = stash clear
+    ssd = stash drop
     ssl = stash list
     ssp = stash pop
     sss = stash save
