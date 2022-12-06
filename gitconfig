@@ -11,6 +11,7 @@
     cm = commit
     cmal = commit --all
     cmam = commit --amend
+    cmm = commit -m
     co = config
     di = diff --ignore-cr-at-eol
     diw = diff --word-diff
