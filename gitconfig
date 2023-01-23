@@ -64,7 +64,7 @@
     autoSetupRemote = true
     default = simple
 [rerere]
-	enabled = true
+    enabled = true
 [user]
     email =
     name =
