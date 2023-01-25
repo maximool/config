@@ -9,9 +9,9 @@ fi
 # User specific environment and startup programs
 
 # Cygwin only
+shopt -s extglob
 if [ -z "$MINGW_PREFIX" -a -z "$TMUX" ]
 then
-    shopt -s extglob
     eval $(ssh-agent -s)
     ssh-add "$HOME"/.ssh/id_!(*.pub)
 
