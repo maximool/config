@@ -46,7 +46,7 @@
     ui = true
 [core]
     autocrlf = input
-    editor = nano  # vim -c 'startinsert'
+    editor = vim -c 'startinsert'  # nano
     eol = native
     filemode = false
     fscache = true
