@@ -54,6 +54,13 @@ export VISUAL=vim
 # custom history lines
 export HISTTIMEFORMAT='%F %T '
 
+# custom history depth (both from CLI and on disk)
+export HISTSIZE=1000
+export HISTFILESIZE=10000
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
 # Formerly flatshare IP (courtesy of @mdamien)
 export FLAT=""
 export RASP=""
