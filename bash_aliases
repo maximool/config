@@ -1,6 +1,7 @@
 # alias docker='sudo docker'
 alias grep='grep --colour=auto'
 alias jo='jobs -l'
+alias k='kubectl'
 alias l='ls -C --classify'
 alias la='ls --almost-all --human-readable -l'
 alias ll='ls --human-readable -l'
