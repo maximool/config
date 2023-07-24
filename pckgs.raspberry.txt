@@ -1,7 +1,10 @@
 aspell
 aspell-fr
 curl
+dnsutils
 ffmpeg
+fonts-firacode
+fonts-jetbrains-mono
 git
 htop
 mosh
@@ -15,7 +18,9 @@ screen
 shellcheck
 sqlite3
 sysstat
+traceroute
 vim-nox
 virtualenvwrapper
 wget
 whois
+zram-tools

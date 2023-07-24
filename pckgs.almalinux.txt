@@ -1,13 +1,12 @@
-# to install: dnf install -y $(grep -v '^# ' pckgs.almalinux.txt)
 ShellCheck
 curl
-# filezilla
-# geany
+filezilla
+geany
 git
-# google-droid-sans-mono-fonts
+google-droid-sans-mono-fonts
 htop
 java
-# keepassxc
+keepassxc
 nano
 net-tools
 nmap
@@ -16,9 +15,9 @@ python3-devel
 rsync
 screen
 sysstat
-# thunderbird
+thunderbird
 tmux
-# transmission
+transmission
 vim
 wget
 whois
