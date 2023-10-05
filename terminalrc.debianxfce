@@ -1,10 +1,11 @@
 [Configuration]
 # https://github.com/sgerrand/xfce4-terminal-colors-solarized
 ColorBackground=#fdf6e3
-ColorBold=#ffffff
+ColorBold=#073642
+ColorBoldUseDefault=FALSE
 ColorCursor=
-ColorForeground=#657b83
-ColorPalette=#eee8d5;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#073642;#fdf6e3;#cb4b16;#93a1a1;#839496;#657b83;#6c71c4;#586e75;#002b36
+ColorForeground=#073642
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#fdf6e3
 ColorSelection=#163b59
 DropdownAlwaysShowTabs=FALSE
 DropdownHeight=55
@@ -44,5 +45,5 @@ MiscToolbarDefault=FALSE
 MiscUseShiftArrowsToScroll=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingLines=5000
-TabActivityColor=#0f4999
+TabActivityColor=#dc322f
 TitleMode=TERMINAL_TITLE_HIDE
