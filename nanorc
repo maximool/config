@@ -43,24 +43,14 @@ set showcursor
 ## beginning of the line.
 set smarthome
 
-## Use smooth scrolling as the default.
-# set smooth
-
 ## Spread overlong lines over multiple screen lines.
 set softwrap
-
-## Allow nano to be suspended (with ^Z by default).
-set suspendable
-## (The old form of this option, 'set suspend', is deprecated.)
 
 ## Use this tab size instead of the default; it must be greater than 0.
 set tabsize 4
 
 ## Convert typed tabs to spaces.
 set tabstospaces
-
-## === Syntax coloring ===
-## For all details, see 'man nanorc', section SYNTAX HIGHLIGHTING.
 
 ## To include most of the existing syntax definitions, you can do:
 include "/usr/share/nano/*.nanorc"
