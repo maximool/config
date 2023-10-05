@@ -14,6 +14,7 @@
     cmm = commit -m
     co = config
     di = diff --ignore-cr-at-eol
+    dit = difftool
     diw = diff --word-diff
     fe = fetch
     fea = fetch --all
@@ -56,6 +57,8 @@
     helper =
 [credential "helperselector"]
     selected = <no helper>
+[diff]
+    tool = vimdiff
 [gc]
     auto = 256
 [pull]

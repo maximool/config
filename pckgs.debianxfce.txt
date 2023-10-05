@@ -16,6 +16,7 @@ fonts-droid-fallback
 fonts-firacode
 fonts-inconsolata
 fonts-jetbrains-mono
+geany
 git
 gtk2-engines-murrine
 gvfs-backends
