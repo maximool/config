@@ -10,6 +10,8 @@ dmz-cursor-theme
 dnsutils
 ffmpeg
 filezilla
+firefox-esr
+firefox-esr-l10n-fr
 firmware-iwlwifi
 firmware-linux
 fonts-droid-fallback
@@ -25,6 +27,7 @@ htop
 innoextract
 irqbalance
 keepassxc
+libreoffice-l10n-fr
 mosh
 murrine-themes
 nano
