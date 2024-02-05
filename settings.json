@@ -9,6 +9,9 @@
     "editor.tabFocusMode": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": false
+    },
     "git.autofetch": false,
     "git.autorefresh": false,
     "git.mergeEditor": false,
@@ -33,6 +36,7 @@
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.empty.hint": "hidden",
     "workbench.enableExperiments": false,
+    "workbench.panel.defaultLocation": "bottom",
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.preferredLightColorTheme": "Solarized Light",
     "workbench.startupEditor": "newUntitledFile",
