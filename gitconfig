@@ -58,9 +58,12 @@
 [credential "helperselector"]
     selected = <no helper>
 [diff]
+    algorithm = histogram
     tool = vimdiff
 [gc]
     auto = 256
+[merge]
+    conflictstyle = zdiff3
 [pull]
     rebase = false  # false for fast-forward/recursive, merges to auto-rebase
 [push]
