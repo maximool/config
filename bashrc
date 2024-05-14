@@ -3,7 +3,7 @@
 ##################
 
 # good pratice here: isolating aliases into a dedicated file
-source $HOME/.bash_aliases
+source "$HOME/.bash_aliases"
 
 # adding usually created folder to PATH
 if [ -d "$HOME/bin" ]
