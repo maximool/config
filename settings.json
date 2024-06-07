@@ -9,6 +9,7 @@
     "editor.tabFocusMode": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
+    "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/.git": false
     },
