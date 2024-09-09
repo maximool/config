@@ -27,6 +27,7 @@ htop
 innoextract
 irqbalance
 keepassxc
+libreoffice
 libreoffice-l10n-fr
 mosh
 murrine-themes
@@ -54,6 +55,5 @@ vlc
 wget
 whois
 xfce4-whiskermenu-plugin
-xscreensaver
 xserver-xorg-input-synaptics
 zram-tools
