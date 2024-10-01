@@ -27,6 +27,7 @@ htop
 innoextract
 irqbalance
 keepassxc
+libimage-exiftool-perl
 libreoffice
 libreoffice-l10n-fr
 mosh
