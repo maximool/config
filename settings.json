@@ -5,10 +5,13 @@
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
+    "editor.formatOnSave": true,
     "editor.tabCompletion": "on",
     "editor.tabFocusMode": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.wordWrap": "on",
+    "eslint.format.enable": true,
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/.git": false
@@ -42,5 +45,5 @@
     "workbench.panel.defaultLocation": "bottom",
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.preferredLightColorTheme": "Solarized Light",
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "newUntitledFile"
 }
