@@ -1,4 +1,5 @@
 {
+    "chat.commandCenter.enabled": false,
     "debug.console.fontSize": 12,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
