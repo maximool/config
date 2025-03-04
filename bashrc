@@ -31,8 +31,8 @@ fi
 # source /etc/bash_completion.d/git-prompt  # Debian-based
 # source /usr/share/git-core/contrib/completion/git-prompt.sh  # Fedora-based
 # 2. customize PS1:
-# PS1='[\u@\h \W]\$ '  # Cygwin-based
-# PS1='[\u@\h \W]$(__git_ps1)\$ '  # Fedora-based
+# PS1='[$?][\u@\h \W]\$ '  # Cygwin-based
+# PS1='[$?][\u@\h \W]$(__git_ps1)\$ '  # Fedora-based
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
