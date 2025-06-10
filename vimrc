@@ -79,3 +79,5 @@ let @p=':set paste'
 let @s=':sort u'
 " CVE-2019-12735
 set nomodeline
+" Disables annoying flickering effects
+set belloff=all
