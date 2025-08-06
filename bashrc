@@ -55,8 +55,8 @@ export VISUAL=vim
 export HISTTIMEFORMAT='%F %T '
 
 # custom history depth (both from CLI and on disk)
-export HISTSIZE=1000
-export HISTFILESIZE=10000
+export HISTSIZE=10000
+export HISTFILESIZE=100000
 
 # append to the history file, don't overwrite it
 shopt -s histappend
