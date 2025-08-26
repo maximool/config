@@ -36,6 +36,9 @@ nano
 net-tools
 nmap
 openssh-server
+podman
+podman-compose
+podman-docker
 python3
 python3-dev
 redshift-gtk
