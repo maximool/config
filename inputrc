@@ -2,5 +2,10 @@ set completion-ignore-case on
 set show-all-if-ambiguous on
 set menu-complete-display-prefix on
 
+# https://cygwin.com/cygwin-ug-net/setup-files.html
+set meta-flag on
+set convert-meta off
+set output-meta on
+
 TAB: menu-complete
 "\e[Z": menu-complete-backward
