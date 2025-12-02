@@ -9,6 +9,7 @@ gnupg2
 inetutils
 mosh
 nano
+nc
 openssh
 rsync
 tmux
