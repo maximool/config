@@ -13,6 +13,8 @@
     cmam = commit --amend
     cmm = commit -m
     co = config
+    cp = cherry-pick
+    cpa = cherry-pick --abort
     di = diff --ignore-cr-at-eol
     dit = difftool
     diw = diff --word-diff
@@ -25,11 +27,14 @@
     loo = log --oneline
     lsf = ls-files
     me = merge
+    mea = merge --abort
     pl = pull
     ps = push
     psf = push --force-with-lease
     psu = push --set-upstream
     rb = rebase
+    rba = rebase --abort
+    rbi = rebase --interactive
     rf = reflog
     rs = reset
     rts = restore --staged
@@ -42,7 +47,7 @@
     ssp = stash pop
     sss = stash save
     st = status
-    tree = log --all --decorate --graph --oneline
+    tree = log --all --decorate --full-history --graph --oneline
 [color]
     ui = true
 [core]
@@ -61,9 +66,10 @@
     algorithm = histogram
     tool = vimdiff
 [gc]
-    auto = 256
+    auto = 1024
 [merge]
     conflictstyle = zdiff3
+    tool = vimdiff
 [pull]
     rebase = false  # false for fast-forward/recursive, merges to auto-rebase
 [push]
