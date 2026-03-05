@@ -1,5 +1,7 @@
 {
     "chat.commandCenter.enabled": false,
+    "chat.notifyWindowOnConfirmation": "off",
+    "chat.notifyWindowOnResponseReceived": "off",
     "debug.console.fontSize": 12,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
@@ -46,5 +48,6 @@
     "workbench.panel.defaultLocation": "bottom",
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.settings.showAISearchToggle": false,
     "workbench.startupEditor": "newUntitledFile"
 }
