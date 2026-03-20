@@ -46,7 +46,7 @@
     ssl = stash list
     ssp = stash pop
     sss = stash save
-    st = status --short
+    st = status --branch --short
     tree = log --all --decorate --full-history --graph --oneline
 [color]
     ui = true
