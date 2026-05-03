@@ -1,5 +1,6 @@
 {
     "chat.commandCenter.enabled": false,
+    "chat.disableAIFeatures": true,
     "chat.notifyWindowOnConfirmation": "off",
     "chat.notifyWindowOnResponseReceived": "off",
     "debug.console.fontSize": 12,
@@ -19,6 +20,7 @@
     "files.exclude": {
         "**/.git": false
     },
+    "git.addAICoAuthor": "off",
     "git.autofetch": false,
     "git.autorefresh": false,
     "git.mergeEditor": false,
