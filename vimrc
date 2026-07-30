@@ -36,7 +36,7 @@ set ignorecase
 " Displays extra information on the command bar
 set laststatus=2
 " Allows pasting with mouse
-set mouse=a
+set mouse=nv
 " Totally overrides old vi compatibility mode
 set nocompatible
 " Displays line number
